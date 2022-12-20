@@ -31,17 +31,36 @@ for (ac in all.currs) {
   }
 }
 
-for (c in boats.df$Price)
-{
-  splitted <- str_split_fixed(c, " ", 2)
-  curr <- splitted[1]
-  value <- splitted[2]
-  boats.df$Price[boats.df$Price == c] <- as.double(value) * h[[curr]]
-  # return()
-}
+unified.values <- list()
 
-# unify_currency <- function(df_x){
-#  if (){
-#
-#  }
-# }
+for (c in 1:nrow(boats.df))
+{
+  splitted <- str_split_fixed(boats.df[c,]$Price, " ", 2)
+  value <- splitted[2]
+  curr <- splitted[1]
+  print(as.double(splitted[2]))
+  print(h[[curr]])
+  print(as.double(splitted[2])*h[[curr]])
+  unified.values <- list.append(unified.values, as.double(splitted[2])*h[[curr]])
+
+
+}
+print(unique(unified.values))
+
+boats.df$Price<-unified.values
+
+print(head(boats.df$Location))
+
+for (c in 1:nrow(boats.df))
+{
+  splitted <- str_replace(boats.df[c,]$Location, "", "Ă»")
+  # print(gsub("Ă‚Â»", ",", boats.df[c,]$Location))
+  # print(boats.df[c,]$Location)
+  # to.delete <- c('Ă', '>>')
+  # boats.df$Location <- sub('Ă', "", boats.df$Location )
+print(splitted[1])
+  break
+
+}
+library(stringr)
+boats.df$Location <- str_replace_all(boats.df$Location, "Ă»", "")
