@@ -1,0 +1,21 @@
+
+
+Croatia:       
+Spain: "Spain?a", "Ibiza", "Mallorca"  , "Marina",  "Calanova", "Tenero,"    
+"Norway" : "NordseekĂ\u0083ÂĽste"
+"Denmark" :  "Juelsminde" , 
+Germany : "Brandenburg" , "Rostock","Beilngries","Bremen","Berlin" , "RĂ\u0083ÂĽgen" , "Ostsee", "Steinwiesen", "TravemĂ\u0083ÂĽnde", "Stralsund", "Greetsile/", "Niederrhein",  "Heilbronn", "Bielefeld" , "Rheinfelden", "FuĂ\u0083Âźach" , "Barssel" 
+
+Slovenia: "Izola"
+"Switzerland" : "VierwaldstĂ\u0083Â¤ttersee", "baden" , "Rolle", "Lake"  , "Faoug" , "waren", "Neustadt", "ZĂ\u0083ÂĽrichse,", "Avenches" , "Thalwil"  , "Welschenrohr" , "Thun"
+"Portugal" : "PT", "lago" , "Lago" , "Porto" 
+"Austria" : "Donau", "Neusiedl" , "bodensee"
+"USA" : "United" 
+"Netherlands"   : "Zevenbergen",  "Katwijk"  , "Wijdenes"  , 
+"Poland" :  "Oder"  
+"Russia" : "Russian" 
+"France" : "annecy"
+"Belgium" :  , 
+Italy : "Toscana",  "Angera"                                      
+                                                                       
+"83278"   ,    "Isle"    ,    "24782"     ,   "Spain?a"
